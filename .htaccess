@@ -1,0 +1,20 @@
+Options -Indexes
+
+
+
+<Files  .htaccess>
+	Order Allow,deny
+	Deny from all
+</Files>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^([a-zA-Z-0-9/]+)$ index.php?real=$1
+</IfModule>
+
+
+
+php_value upload_max_filesize 50M
+php_value post_max_size 50M
+php_value max_execution_time 500
+php_value max_input_time 500 
