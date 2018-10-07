@@ -1,0 +1,109 @@
+header{
+	position: fixed;
+	width: 100%;
+	/*top: 0;*/
+	margin-bottom: 100px;
+	z-index: 5;
+}
+#nav {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+.navL{
+	float: left;
+}
+.navL img {
+	width: 100px;
+}
+.navR{
+	float: right;
+}
+.navR > ul > li {
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+}
+.navR ul li  a,.navR ul li i {
+	color: #fff;
+}
+.navR ul li i {
+	margin-right: 5px;
+}
+/*.navR ul li:hover .subMenu{
+	display: block;
+}*/
+.subMenu {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	/*background: #ccc;*/
+	margin-top: 22px;
+	border-radius: 0 0 10px 10px;
+	z-index: 3;
+}
+.subMenu ul li a {
+	padding: 10px;
+}
+
+footer{
+	overflow: hidden;
+}
+.footerSup {
+	background: #111;
+	/*width: 80%;*/
+}
+.footerIn {
+	background: #000;
+}
+.footerIn p {
+	padding: 20px ;
+	text-align: center;
+	color: #fff;
+}
+.footer1 {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+	color: #fff;
+}
+.conteFooter {
+	/*background: #ccc;*/
+	margin: 10px;
+	padding: 10px;
+	width: 23.3%;
+	float: left;
+}
+.conteFooter h4 {
+	margin-bottom: 10px;
+}
+.somosF img {
+	width: 60%;
+	margin-bottom: 10px;
+}
+.line {
+	background: #FE1743;
+	height: 4px;
+	margin-bottom: 10px;
+	width: ;
+}
+.line div{
+	width: 30%;
+	background: #fff;
+	height: 4px;
+}
+.listaFooter ul li {
+	padding: 10px;
+	border-bottom: 2px solid #fff;
+}
+.listaFooter ul li a{
+	color: #fff;
+}
+.inputFooter {
+	margin-top: 10px;
+	width: 100%;
+	padding: 10px 20px;
+}
+

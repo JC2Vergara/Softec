@@ -1,0 +1,130 @@
+#blog {
+	overflow: hidden;
+}
+#postU {
+	width: 65%;
+	float: left;
+}
+#aside {
+	width: 30%;
+	float: right;
+}
+.post {
+	margin-bottom: 100px;
+}
+.post .imgPost , .post .icoImgEn {
+	/*width: 100%;*/
+	/*height: 400px;*/
+}
+.post .imgPost img {
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+}
+.post .imgPost {
+	position: relative;
+}
+.post .icoImgEn {
+	height: 280px;
+	width: 98%;
+	position: absolute;
+	border-radius: 10px;
+	top: 0;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin: 10px;
+  	background: rgba(254,23,67,.8);
+	opacity: 0;
+	-webkit-transition: ease all 1s;
+	-o-transition: ease all 1s;
+	transition: ease all 1s;
+}
+.imgPost:hover .icoImgEn{
+	opacity: 1;
+}
+.post .icoImgEn  a  {
+	font-size: 4em;
+	color: #fff;
+	display: block;
+}
+
+.infoTextPost {
+	width: 80%;
+	margin:20px auto 0px;
+	overflow: hidden;
+}
+.infoTextPost .textInfoL {
+	width: 65%;
+	float: left;
+}
+.infoTextPost .textInfoL h3 {
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.infoTextPost .textInfoL p {
+	color: rgba(0,0,0,.6);
+	margin-bottom: 30px;
+}
+.infoTextPost .textInfoL a {
+	width: 150px;
+}
+.infoTextPost .infoAdd {
+	color: rgba(0,0,0,.6);
+	height: 30%;
+	float: right;
+} 
+.infoTextPost .infoAdd p {
+	margin-bottom: 10px;
+}
+.infoTextPost .infoAdd a {
+	color: rgba(254,23,67,.8);
+}
+.page {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.page ul li a{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	background: #FE1743;
+	color: #fff;
+}
+.page ul .activePage {
+	background:rgba(0,0,0,.6);
+}
+
+
+
+.buscar {
+	margin-bottom: 40px;
+}
+.postRecent , .postCategoria {
+		/*color: rgba(0,0,0,.6);*/
+}
+.postRecent h3 , .postCategoria h3{
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.postRecent a  , .postCategoria .catePost a {
+	display: block;
+	color: rgba(0,0,0,.6);
+	margin-bottom: 10px;
+}
+.postCategoria .catePost {
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+}
+.lC {
+	width: 45%;
+	float: left;
+	text-align: left;
+}
+.rC {
+	width: 45%;
+	text-align: right;
+	float: right;
+}
