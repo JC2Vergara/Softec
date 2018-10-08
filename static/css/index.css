@@ -928,7 +928,18 @@
 
 
 /*==========================================================================================================*/
-
+@media (max-width: 1300px){
+    .serverConte .servers , .serverConte  .change{
+        width: 30%;
+    }
+    .contePor,.caraDes{
+        float: none;
+        width: 100%;
+    }
+    .conteFooter {
+        width: 21%;
+    }
+}
 @media (max-width: 992px){
 	.container {
 		width: 90%;

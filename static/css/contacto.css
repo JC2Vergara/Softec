@@ -56,3 +56,8 @@ body:before {
 	font-size: 18px;
 	color: #777;
 }
+.form .input-box textarea {
+	resize: vertical;
+	min-height: 80px;
+	max-height: 150px;
+}
